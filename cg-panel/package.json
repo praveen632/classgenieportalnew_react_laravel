@@ -1,0 +1,24 @@
+{
+  "name": "cg-panel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "detect-browser": "^2.0.0",
+    "react": "^16.2.0",
+    "react-autosuggest": "^9.3.2",
+    "react-confirm-alert": "^1.0.8",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-validation": "^3.0.7",
+    "reactjs-localstorage": "0.0.5"
+  },
+  "homepage": "./",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

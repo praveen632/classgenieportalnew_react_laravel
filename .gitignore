@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+/storage
+Homestead.yaml
+Homestead.json
+.env
+composer.lock
+/cg-panel/public/assets/json/config.json
+/cg-panel/public/assets/json
+/cg-panel/src/assets

@@ -1,0 +1,148 @@
+/*-----Large Screen-----*/
+
+@media only screen and (max-width : 1200px) {
+.navbar-header {
+                    float: none;
+                }
+                .navbar-left,.navbar-right {
+                    float: none !important;
+                }
+                .navbar-toggle {
+                    display: block;
+                }
+                .navbar-collapse {
+                    border-top: 1px solid transparent;
+                    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+                }
+                .navbar-fixed-top {
+                    top: 0;
+                    border-width: 0 0 1px;
+                }
+                .navbar-collapse.collapse {
+                   display: none!important;
+    position: absolute;
+    background: #303036;
+    margin: 0 -15px;
+    width: 100%;
+    top: 82px;
+    z-index: 2;
+    left: 15px;
+                }
+                .navbar-nav {
+                    float: none!important;
+                    margin-top: 7.5px;
+                }
+                .navbar-nav>li {
+               float: none;
+              position: relative;
+              display: block;
+                }
+                .navbar-nav>li>a {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                .collapse.in{
+                    display:block !important;
+                }
+
+
+}
+.head-section{height: 100vh}
+
+/*------Medium Screen (Tablet)----*/
+
+@media only screen and (max-width : 992px) {
+.navbar-right
+{
+  background: linear-gradient(to right,rgba(212,51,93),rgba(255,86,39));
+}
+.head-section
+{
+  background-image:url(../images/m.png),linear-gradient(to right,#333333bf,#555555ad), url(../images/9.png);
+
+}
+.video-section h3{font-size:20px;}
+.video-section p{font-size: 17px;}
+.team-section .member{margin-bottom: 30px;}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background: none  !important;
+}
+.home-service-top-inner {
+    margin: -30px 0px 10px 0px;
+  
+}
+.service-icon {
+  margin: 30px auto;
+  }
+.about-section {
+      padding: 65px 0px !important;
+}
+.intro {
+    margin-bottom: 60px;
+
+}
+.wind-app  {text-align:center;}
+}
+
+/*------Small Tablet-------*/
+
+@media only screen and (max-width:768px)
+{
+  .head-section .head-info{text-align: center}
+  .head-section .head-info h1{font-size: 25px}
+  .head-section .head-info p{font-size: 18px}
+  .screenshots-section .owl-nav
+{position: relative;top: 90px;}
+  .testmonial-section .owl-nav
+{position: relative;top: 20px;}
+.gallery__slider::after
+{position: absolute;top: 49%;}
+.video-section h3{font-size:19px;}
+.video-section p{font-size: 15px;}
+.sub-btn {
+    width: 80%;
+    margin: 0px 10px 25px 0px;
+}
+}
+
+/*-------Mobile Screen-----*/
+
+@media only screen and (max-width : 480px) {
+  .head-section .btn-default{margin-bottom: 10px}
+  .head-section a{margin-left: 20px}
+.video-section h3{font-size:17px;}
+.video-section p{font-size: 14px;}
+
+
+
+@media (max-width: 576px) {
+  .wrap-login100 {
+    padding: 25px 15px 33px 15px;
+    margin-top: 30px;
+  
+  }
+}
+
+
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.validate-input {
+  position: relative;
+}
+.alert-validate:hover:before {
+  visibility: visible;
+  opacity: 1;
+}
+.p-t-115 {
+      padding-top: 10px;
+}
+
+@media (max-width: 992px) {
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+}

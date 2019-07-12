@@ -1,0 +1,133 @@
+{
+   "1":{
+         "url":"change_password",
+		 "name":"Change Password",
+		 "alt":"Change Password",
+		 "image_name":"edit_pass.png"
+    },
+	
+	"2":{
+         "url":"content",
+		 "name":"Content Management",
+		 "alt":"Content Management",
+		 "image_name":"cms.png",
+		 "child" : {
+		 	       "1":{
+                           "url":"language",
+						   "name":"Language",
+						   "alt":"Content Management",
+						   "image_name":"wc-admin-mgnt.png"
+
+		 	       	},
+		 	       	
+		 	       	"2":{
+                           "url":"contentlist",
+						   "name":"Content",
+						   "alt":"Content Management",
+						   "image_name":"wc-admin-mgnt.png"
+
+
+		 	       	},
+		 	       	"3":{
+                           "url":"emaillist",
+						   "name":"Email",
+						   "alt":"Email Management",
+						   "image_name":"wc-admin-mgnt.png"
+	
+		 	       	},
+		 	     	"4":{
+                           "url":"bloglist",
+						   "name":"Blog",
+						   "alt":"Blog Management",
+						   "image_name":"wc-admin-mgnt.png"
+	
+		 	       	}
+		 	       
+		 	       }
+    },
+
+    "3":{
+         "url":"Staff",
+		 "name":"Staff Access Management",
+		 "alt":"Content Management",
+		 "image_name":"staff.png",
+		 "child" : {
+		 	       "1":{
+                           "url":"rolemanagement",
+						   "name":"Admin Role Management",
+						   "alt":"Admin Role Management",
+						   "image_name":"wc-admin-mgnt.png"
+
+		 	       	},
+		 	       	"2":{
+                           "url":"usermanagement",
+						   "name":"Admin User Management",
+						   "alt":"Admin User Management",
+						   "image_name":"wc-admin-mgnt.png"
+		 	       	}
+
+		 	       }
+    },
+
+    "4":{
+         "url":"Image",
+		 "name":"Image Management",
+		 "alt":"Image Management",
+		 "image_name":"image.png",
+		 "child" : {
+		 	       "1":{
+                           "url":"imagemanagement/class",
+						   "name":"Class Image Management",
+						   "alt":"Class Image  Management",
+						   "image_name":"wc-admin-mgnt.png"
+
+		 	       	},
+		 	       	"2":{
+                           "url":"imagemanagement/student",
+						   "name":"Student Image Management",
+						   "alt":"Student Image Management",
+						   "image_name":"wc-admin-mgnt.png"
+
+		 	       	},
+		 	       	"3":{
+                           "url":"imagemanagement/skill",
+						   "name":"Skill Image Management",
+						   "alt":"Skill Image Management",
+						   "image_name":"wc-admin-mgnt.png"
+						},
+					"4":{
+                           "url":"imagemanagement/customizeskill",
+						   "name":"Customize Skill Management",
+						   "alt":"Customize Skill Management",
+						   "image_name":"wc-admin-mgnt.png"
+						}
+					}
+				},
+	    "5":{
+		   "url":"schools",
+		   "name":"Schools Management",
+		   "alt":"Schools Management",
+		   "image_name":"school.png",
+		   "child" : {
+						"1":{
+						      "url":"schools",
+						         "name":"Schools Management",
+						         "alt":"Schools Management",
+						         "image_name":"wc-admin-mgnt.png"
+
+						    },
+						 "2":{
+					         "url":"teacherstatus",
+					         "name":"Teacher List",
+					         "alt":"Teacher List",
+					         "image_name":"wc-admin-mgnt.png"
+					        },  
+					    "3":{
+						      "url":"teacherlist",
+						         "name":"Pending Teacher List",
+						         "alt":"Pending Teacher List",
+						         "image_name":"wc-admin-mgnt.png"
+						    }					    
+						}
+                     }
+	}
